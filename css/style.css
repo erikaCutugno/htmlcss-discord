@@ -39,6 +39,10 @@ i{
     background-color: black;
     color: white;
 }
+.btn-purple{
+    background-color: #8ea1e1;
+    color: white;
+}
 /*------------
    TYPHOGRAPHY
 ------------*/  
@@ -51,7 +55,15 @@ h1{
     margin-bottom: 20px;
 }
 p{
-    padding: 20px;
+    padding: 20px 0;
+}
+h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 /*------------
    HEADER
@@ -114,14 +126,12 @@ nav ul a{
     display: flex;
     padding: 40px 0;
 }
-.section-top .big, .section-top .small{
-    min-height: 450px ;
-}
 .section-top .big{
     width: 60%;
 }
 .section-top .small{
     width: 40%;
+    text-align: left;
 }
 
 .section-center{
@@ -131,9 +141,7 @@ nav ul a{
     display: flex;
     padding: 40px 0;
 }
-.section-center .big, .section-center .small{
-    min-height: 450px ;
-}
+
 .section-center .big{
     width: 60%;
 }
@@ -141,13 +149,16 @@ nav ul a{
     width: 40%;
 }
 
-
 .section-bottom {
     padding:40px 0;
     background-color: #d3d3d3;
 }
-.section-bottom .container {
-    min-height: 800px;
+.section-bottom .container *{
+    text-align: center;
+}
+.img-chillin, .btn-center {
+    display: flex;
+    justify-content: center;
 }
 
 /*------------

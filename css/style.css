@@ -21,6 +21,11 @@ i{
 ul{
 list-style: none;
 }
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
 /*------------
   BUTTON
 ------------*/  
@@ -29,6 +34,7 @@ list-style: none;
     border-radius: 20px;
     border: none;
     padding: 8px 16px;
+    cursor: pointer;
 }
 .btn-large{
     font-size: 16px;
@@ -114,6 +120,7 @@ nav ul a{
     padding: 150px;
     background-image: url("../img/jumbo.png");
     background-size: cover;
+    background-position: center;
 }
 .header-bottom .container {
     max-width: 900px;
@@ -132,10 +139,10 @@ nav ul a{
     padding: 40px 0;
 }
 .section-top .big{
-    width: 60%;
+    width: 65%;
 }
 .section-top .small{
-    width: 40%;
+    width: 35%;
     text-align: left;
 }
 
@@ -148,10 +155,11 @@ nav ul a{
 }
 
 .section-center .big{
-    width: 60%;
+    width: 65%;
+    text-align: right;
 }
 .section-center .small{
-    width: 40%;
+    width: 35%;
 }
 
 .section-bottom {
@@ -159,12 +167,8 @@ nav ul a{
     padding-bottom: 80px;
     background-color: #d3d3d3;
 }
-.section-bottom .container *{
+.section-bottom .container {
     text-align: center;
-}
-.img-chillin, .btn-center {
-    display: flex;
-    justify-content: center;
 }
 
 /*------------
